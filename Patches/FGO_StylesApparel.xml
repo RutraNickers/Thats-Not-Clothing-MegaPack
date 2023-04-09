@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<!-- Simple Slavery Collars Patch -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>[FGO]Fate Grand Order - Styles Apparel Pack</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="FateGrandOrder_HATjoan"]/apparel</xpath>
+					<value>
+					  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="FateGrandOrder_HAThokusai"]/apparel</xpath>
+					<value>
+					  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="FateGrandOrder_HAThokusaiC"]/apparel</xpath>
+					<value>
+					  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="FateGrandOrder_HATdoji"]/apparel</xpath>
+					<value>
+					  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="FateGrandOrder_HATshuten"]/apparel</xpath>
+					<value>
+					  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="FateGrandOrder_ShutenDojiUndies"]/apparel</xpath>
+					<value>
+					  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

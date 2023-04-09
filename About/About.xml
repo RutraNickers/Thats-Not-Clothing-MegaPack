@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Thats Not Clothing! MegaPack</name>
+  <author>RutraNickers</author>
+  <url></url>
+  <supportedVersions>
+    <li>1.4</li>
+  </supportedVersions>
+  <packageId>rutranickers.NotClothingPack</packageId>
+  <description>Oi, nudist! It's just a freaking hat, why are you mad!? I can see literally EVERYTHING, YOU'RE NOT CLOTHED AT ALL!!
+  
+  Multimod patch that makes any accessory/hat that isn't supposed to be heavy (and apparels that shows so much skin that your pawns are basically naked just with then) to be nudist friendly.</description>
+	<loadAfter>
+    	<li>tribeagle.simpleslaverycollars</li>
+		<li>ricofox233.fgo.stylesapparelpack</li>
+		<li>xrushha.animagear</li>
+		<li>gunmar.victorianeraapparels</li>
+		<li>soap.bs</li>
+		<li>onegative.communicablediseases</li>
+		<li>aelanna.eccentrictech.angelapparel</li>
+		<li>baskerville.hellsingarmsultimate</li>
+		<li>ricofox233.klkapparel</li>
+  	</loadAfter>
+</ModMetaData>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<!-- Simple Slavery Collars Patch -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Communicable Diseases [1.4]</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="Apparel_DustMask"]/apparel</xpath>
+					<value>
+					  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="Apparel_Respirator"]/apparel</xpath>
+					<value>
+					  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="Apparel_PAPR"]/apparel</xpath>
+					<value>
+					  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="PPE_Gloves_Basic"]/apparel</xpath>
+					<value>
+					  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

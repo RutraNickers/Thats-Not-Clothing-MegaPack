@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<!-- Simple Slavery Collars Patch -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Hellsing ARMS Ultimate</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="HSAU_HLS_CountHeadgear"]/apparel</xpath>
+					<value>
+					  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="HSAU_HLS_CountHeadgearWig"]/apparel</xpath>
+					<value>
+					  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="HSAU_HLS_PoliceGirlWig"]/apparel</xpath>
+					<value>
+					  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="HSAU_HLS_GooseCap"]/apparel</xpath>
+					<value>
+					  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="HSAU_HLS_GooseCapWig"]/apparel</xpath>
+					<value>
+					  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="HSAU_HLS_HellsingBeret"]/apparel</xpath>
+					<value>
+					  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

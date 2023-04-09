@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<!-- Simple Slavery Collars Patch -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Victorian Era Apparels!</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="Gunmar_Apparel_FeatheredHat"]/apparel</xpath>
+					<value>
+					  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="Gunmar_Apparel_MaidHead"]/apparel</xpath>
+					<value>
+					  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="Gunmar_Apparel_BoaterHat"]/apparel</xpath>
+					<value>
+					  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="Gunmar_Apparel_TopHat"]/apparel</xpath>
+					<value>
+					  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="Gunmar_Apparel_Slouch_Hat"]/apparel</xpath>
+					<value>
+					  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
